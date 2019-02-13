@@ -1,0 +1,39 @@
+/***** BODY ******/
+body {
+    width: 90%;
+    margin: auto;
+    
+}
+/***** END OF BODY******/
+
+/***** NAVAGATION BAR ******/
+.navBar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+.navBar li {
+  float: left;
+}
+
+.navBar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navBar li a:hover {
+  background-color: lightyellow;
+}
+
+.navBar .active {
+    background-color: yellow;
+    color: black;
+}
+
+/***** END OF NAVAGATION BAR ******/
